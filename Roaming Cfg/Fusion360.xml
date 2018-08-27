@@ -1,0 +1,3149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.6">
+  <AppInfo>
+    <Signature>
+      <Name>STR_FUSION360</Name>
+    </Signature>
+    <Options />
+  </AppInfo>
+  <CfgProperties>
+    <InheritsFrom>STR_FUSION360</InheritsFrom>
+    <Access />
+  </CfgProperties>
+  <AuthorInfo>
+    <DriverVersion>17.5.10.15247</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.18213.15051</Version>
+      <Date>8/27/2018 3:50:22 PM UTC</Date>
+      <User>Brayden Aimar</User>
+    </LastChange>
+  </AuthorInfo>
+  <Settings>
+    <OverallScale>1.20</OverallScale>
+  </Settings>
+  <Devices>
+    <Device>
+      <Name>Standard 3D Mouse</Name>
+      <VendorID>0</VendorID>
+      <ProductID>0</ProductID>
+      <AxisBank>
+        <Name>Default</Name>
+        <ID>Default</ID>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_X</ActionID>
+            <Scale>1.4200</Scale>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Y</ActionID>
+            <Scale>0.3400</Scale>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Z</ActionID>
+            <Scale>1.0000</Scale>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rx</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Rx</ActionID>
+            <Scale>0.4400</Scale>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Ry</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Ry</ActionID>
+            <Scale>0.2600</Scale>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+        <Axis>
+          <Enabled>true</Enabled>
+          <Input>
+            <ActionID>HIDMultiAxis_Rz</ActionID>
+            <Min>-512</Min>
+            <Max>511</Max>
+          </Input>
+          <Output>
+            <ActionID>HIDMultiAxis_Rz</ActionID>
+            <Scale>0.6800</Scale>
+            <Reversed>false</Reversed>
+          </Output>
+        </Axis>
+      </AxisBank>
+      <CurrentButtonBank>Default</CurrentButtonBank>
+      <AxisFilter>None</AxisFilter>
+    </Device>
+    <Device>
+      <Name>SpaceMouse Enterprise</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c633</ProductID>
+      <InheritsFrom>Standard 3D Mouse</InheritsFrom>
+      <CurrentButtonBank>Default</CurrentButtonBank>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_20</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_3f29c598-2089-411e-bf52-fa11c3906e8b</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_13</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_fc15e039-77f7-49e0-9bf0-4b8865de15a2</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_19</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_5e82ce09-5fab-4dbd-82bd-b88d36c2965e</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_11</ActionID>
+          </Input>
+          <Output>
+            <ActionID>App_Function11</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_105</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Save</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_103</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Hide Toolbar</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_104</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Hide Data Panel</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_22</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_8002c1ad-9f52-493f-bd4a-2481e2a9501d</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_21</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_af548834-8743-4bf2-a862-baee62df0d72</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>LongPressButton_103</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Hide Browser</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_14</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_afb7b542-22c8-4566-a5b8-4bb5ed8b635f</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_1c73a8be-98e2-459e-a43b-ce153f90a9e9</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_78</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_92dcc208-bd0c-462f-8d8b-b0623a35a724</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_77</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_2db1efa3-ac3b-4dad-80aa-c1bebba4858b</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Undo</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_0d94cb13-5d16-47c8-8b36-273395d10246</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>LongPressButton_104</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Hide Navigation Bar</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_16</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_400d0af5-47ec-4dbb-b377-8a6f1a838791</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+  <MacroTable>
+    <MacroEntry>
+      <ID>Construction</ID>
+      <KeyStroke>
+        <Key>1B</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Revolve</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Flange</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Save</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Line</ID>
+      <KeyStroke>
+        <Key>F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Stop Sketch</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>14</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Center Point Arc</ID>
+      <KeyStroke>
+        <MouseButton>Left</MouseButton>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Fit Point Spline</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Extrude</ID>
+      <KeyStroke>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Sweep</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Loft</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Rectangular Pattern</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Pattern on Path</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>18</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Circular Pattern</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Mirror</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>10</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Create Sketch</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Sketch Dimension</ID>
+      <KeyStroke>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Project</ID>
+      <KeyStroke>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Include 3D Geometry</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Fillet</ID>
+      <KeyStroke>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Rule Fillet</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Press Pull</ID>
+      <KeyStroke>
+        <Key>14</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Chamfer</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Shell</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Draft</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Combine</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Replace Face</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Split Face</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Split Body</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Silhouette Split</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Move</ID>
+      <KeyStroke>
+        <Key>10</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Physical Material</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Appearance</ID>
+      <KeyStroke>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Manage Materials</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>10</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Compute All</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Change Parameters</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>New Component</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>11</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Joint</ID>
+      <KeyStroke>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Joint Origin</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Rigid Group</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Drive Joints</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Motion Link</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Enable Contact Sets</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Enable All Contact</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Motion Study</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Capture Position</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Revert</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>As-built Joint</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Window Selection</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>1E</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Freeform Selection</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>1F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Paint Selection</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>20</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Select By Name</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1E</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Select By Boundary</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Select By Size</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>20</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Invert Selection</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>21</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Decal</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Attached Canvas</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Insert SVG</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Insert DXF</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Insert McMaster-Carr Component</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Measure</ID>
+      <KeyStroke>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Interference</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Section Analysis</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Component Color Cycling Toggle</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>11</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Curvature Comb Analysis</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Zebra Analysis</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1D</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Draft Analysis</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Curvature Map Analysis</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Center of Mass</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>10</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Unfold</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>18</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Refold</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Create Flat Pattern</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Sheet Metal Rules</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>1C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Hide Toolbar</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>1A</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Hide Browser</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Hide Data Panel</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Hide Navigation Bar</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>11</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>2-Point Rectangle</ID>
+      <KeyStroke>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Center Diameter Circle</ID>
+      <KeyStroke>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Point</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Control Point Spline</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Circumscribed Polygon</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Center to Center Slot</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>B</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Offset</ID>
+      <KeyStroke>
+        <Key>12</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Offset Plane</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>12</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Point at Edge and Plane</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>B</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Point at Center of Circle/Sphere/Torus</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>B</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Plane at Angle</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Tangent Plane</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Midplane</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>10</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Plane Through Two Edges</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Plane Through Three Points</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Plane Tangent to Face at Point</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Axis Through Cylinder/Cone/Torus</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>B</Key>
+      </KeyStroke>
+    </MacroEntry>
+  </MacroTable>
+  <Menus>
+    <Executable>3DxPieMenus.exe</Executable>
+    <Menu Type="Radial">
+      <Name>Sketch Draw</Name>
+      <ID>MenuRM_afb7b542-22c8-4566-a5b8-4bb5ed8b635f</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Line</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>2-Point Rectangle</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Center Diameter Circle</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Center Point Arc</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Circumscribed Polygon</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Center to Center Slot</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Fit Point Spline</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Point</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Sketch Modify</Name>
+      <ID>MenuRM_1c73a8be-98e2-459e-a43b-ce153f90a9e9</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sketch Fillet</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Trim</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Extend</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Break</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Offset</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sketch Mirror</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sketch Circular Pattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sketch Rectangular Pattern</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Sketch Create</Name>
+      <ID>MenuRM_fc15e039-77f7-49e0-9bf0-4b8865de15a2</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Create Sketch</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sketch Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Construction</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Project</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Intersect</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Include 3D Geometry</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Intersection Curve</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Stop Sketch</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Create</Name>
+      <ID>MenuRM_5e82ce09-5fab-4dbd-82bd-b88d36c2965e</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Extrude</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Revolve</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sweep</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Loft</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Mirror</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Rectangular Pattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Circular Pattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Pattern on Path</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Modify</Name>
+      <ID>MenuRM_3f29c598-2089-411e-bf52-fa11c3906e8b</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Fillet</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Chamfer</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Shell</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Replace Face</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Split Body</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Physical Material</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Appearance</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Change Parameters</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Assemble</Name>
+      <ID>MenuRM_af548834-8743-4bf2-a862-baee62df0d72</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>New Component</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Joint</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>As-built Joint</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Joint Origin</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Rigid Group</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Motion Link</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Capture Position</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Revert</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Select</Name>
+      <ID>MenuRM_92dcc208-bd0c-462f-8d8b-b0623a35a724</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Window Selection</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Freeform Selection</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Paint Selection</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Select By Name</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Select By Boundary</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Select By Size</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Invert Selection</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Invert Selection</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Insert</Name>
+      <ID>MenuRM_2db1efa3-ac3b-4dad-80aa-c1bebba4858b</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Decal</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Attached Canvas</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Insert SVG</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Insert DXF</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Insert McMaster-Carr Component</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Measure</Name>
+      <ID>MenuRM_8002c1ad-9f52-493f-bd4a-2481e2a9501d</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Measure</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Interference</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Curvature Comb Analysis</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Zebra Analysis</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Curvature Map Analysis</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Section Analysis</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Center of Mass</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Component Color Cycling Toggle</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Construct</Name>
+      <ID>MenuRM_0d94cb13-5d16-47c8-8b36-273395d10246</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Offset Plane</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Plane at Angle</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Tangent Plane</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Midplane</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Axis Through Cylinder/Cone/Torus</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Axis Perpendicular at Point</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Point at Center of Circle/Sphere/Torus</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Point at Edge and Plane</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>Sheet Metal</Name>
+      <ID>MenuRM_400d0af5-47ec-4dbb-b377-8a6f1a838791</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Flange</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Unfold</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Refold</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Create Flat Pattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Sheet Metal Rules</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+  </Menus>
+  <ButtonActions xmlns:F360="./FUSION360/" xmlns:assemble="./FUSION360/Assemble/" xmlns:construct="./FUSION360/Construct/" xmlns:insert="./FUSION360/Insert/" xmlns:inspect="./FUSION360/Inspect/" xmlns:mesh="./FUSION360/Mesh/" xmlns:model="./FUSION360/Model/" xmlns:modify="./FUSION360/Modify/" xmlns:patch="./FUSION360/Patch/" xmlns:pcb="./FUSION360/PCB/" xmlns:position="./FUSION360/Position/" xmlns:render="./FUSION360/Render/" xmlns:select="./FUSION360/Select/" xmlns:sheetmetal="./FUSION360/Sheet_Metal/" xmlns:simulation="./FUSION360/Simulation/" xmlns:sketch="./FUSION360/Sketch/" xmlns:tspline="./FUSION360/TSpline/">
+    <!-- App Handled Actions -->
+    <!-- Internal Handled Actions -->
+    <!-- Keyboard Functions -->
+    <!-- Macros -->
+    <ButtonAction Type="Macro">
+      <ID>Construction</ID>
+      <Name>Construction</Name>
+      <Image>
+        <Source>[sketch:Construction.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Line</ID>
+      <Name>Line</Name>
+      <Image>
+        <Source>[sketch:Line.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>2-Point Rectangle</ID>
+      <Name>2-Point Rectangle</Name>
+      <Image>
+        <Source>[sketch:2-Point Rectangle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>3-Point Rectangle</ID>
+      <Name>3-Point Rectangle</Name>
+      <Image>
+        <Source>[sketch:3-Point Rectangle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Rectangle</ID>
+      <Name>Center Rectangle</Name>
+      <Image>
+        <Source>[sketch:Center Rectangle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Diameter Circle</ID>
+      <Name>Center Diameter Circle</Name>
+      <Image>
+        <Source>[sketch:Center Diameter Circle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>2-Point Circle</ID>
+      <Name>2-Point Circle</Name>
+      <Image>
+        <Source>[sketch:2-Point Circle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>3-Point Circle</ID>
+      <Name>3-Point Circle</Name>
+      <Image>
+        <Source>[sketch:3-Point Circle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>2-Tangent Circle</ID>
+      <Name>2-Tangent Circle</Name>
+      <Image>
+        <Source>[sketch:2-Tangent Circle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>3-Tangent Circle</ID>
+      <Name>3-Tangent Circle</Name>
+      <Image>
+        <Source>[sketch:3-Tangent Circle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>3-Point Arc</ID>
+      <Name>3-Point Arc</Name>
+      <Image>
+        <Source>[sketch:3-Point Arc.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Point Arc</ID>
+      <Name>Center Point Arc</Name>
+      <Image>
+        <Source>[sketch:Center Point Arc.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Tangent Arc</ID>
+      <Name>Tangent Arc</Name>
+      <Image>
+        <Source>[sketch:Tangent Arc.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Circumscribed Polygon</ID>
+      <Name>Circumscribed Polygon</Name>
+      <Image>
+        <Source>[sketch:Circumscribed Polygon.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Inscribed Polygon</ID>
+      <Name>Inscribed Polygon</Name>
+      <Image>
+        <Source>[sketch:Inscribed Polygon.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Edge Polygon</ID>
+      <Name>Edge Polygon</Name>
+      <Image>
+        <Source>[sketch:Edge Polygon.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Elipse</ID>
+      <Name>Elipse</Name>
+      <Image>
+        <Source>[sketch:Elipse.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center to Center Slot</ID>
+      <Name>Center to Center Slot</Name>
+      <Image>
+        <Source>[sketch:Center to Center Slot.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Overall Slot</ID>
+      <Name>Overall Slot</Name>
+      <Image>
+        <Source>[sketch:Overall Slot.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Point Slot</ID>
+      <Name>Center Point Slot</Name>
+      <Image>
+        <Source>[sketch:Center Point Slot.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Three Point Arc Slot</ID>
+      <Name>Three Point Arc Slot</Name>
+      <Image>
+        <Source>[sketch:Three Point Arc Slot.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Two Point Arc Slot</ID>
+      <Name>Center Two Point Arc Slot</Name>
+      <Image>
+        <Source>[sketch:Center Two Point Arc Slot.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Fit Point Spline</ID>
+      <Name>Fit Point Spline</Name>
+      <Image>
+        <Source>[sketch:Fit Point Spline.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Control Point Spline</ID>
+      <Name>Control Point Spline</Name>
+      <Image>
+        <Source>[sketch:Control Point Spline.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Conic Curve</ID>
+      <Name>Conic Curve</Name>
+      <Image>
+        <Source>[sketch:Conic Curve.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Point</ID>
+      <Name>Point</Name>
+      <Image>
+        <Source>[sketch:Point.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Text</ID>
+      <Name>Text</Name>
+      <Image>
+        <Source>[sketch:Text.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sketch Fillet</ID>
+      <Name>Sketch Fillet</Name>
+      <Image>
+        <Source>[sketch:Sketch Fillet.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Trim</ID>
+      <Name>Trim</Name>
+      <Image>
+        <Source>[sketch:Trim.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Extend</ID>
+      <Name>Extend</Name>
+      <Image>
+        <Source>[sketch:Extend.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Break</ID>
+      <Name>Break</Name>
+      <Image>
+        <Source>[sketch:Break.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sketch Scale</ID>
+      <Name>Sketch Scale</Name>
+      <Image>
+        <Source>[sketch:Sketch Scale.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Offset</ID>
+      <Name>Offset</Name>
+      <Image>
+        <Source>[sketch:Offset.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sketch Mirror</ID>
+      <Name>Sketch Mirror</Name>
+      <Image>
+        <Source>[sketch:Sketch Mirror.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sketch Circular Pattern</ID>
+      <Name>Sketch Circular Pattern</Name>
+      <Image>
+        <Source>[sketch:Sketch Circular Pattern.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sketch Rectangular Pattern</ID>
+      <Name>Sketch Rectangular Pattern</Name>
+      <Image>
+        <Source>[sketch:Sketch Rectangular Pattern.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Project</ID>
+      <Name>Project</Name>
+      <Image>
+        <Source>[sketch:Project.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Intersect</ID>
+      <Name>Intersect</Name>
+      <Image>
+        <Source>[sketch:Intersect.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Include 3D Geometry</ID>
+      <Name>Include 3D Geometry</Name>
+      <Image>
+        <Source>[sketch:Include 3D Geometry.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Project To Surface</ID>
+      <Name>Project To Surface</Name>
+      <Image>
+        <Source>[sketch:Project To Surface.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Intersection Curve</ID>
+      <Name>Intersection Curve</Name>
+      <Image>
+        <Source>[sketch:Intersection Curve.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create Mesh Section</ID>
+      <Name>Create Mesh Section</Name>
+      <Image>
+        <Source>[sketch:Create Mesh Section.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Fit Curves to Mesh Section</ID>
+      <Name>Fit Curves to Mesh Section</Name>
+      <Image>
+        <Source>[sketch:Fit Curves to Mesh Section.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sketch Dimension</ID>
+      <Name>Sketch Dimension</Name>
+      <Image>
+        <Source>[sketch:Sketch Dimension.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create Sketch</ID>
+      <Name>Create Sketch</Name>
+      <Image>
+        <Source>[sketch:Create Sketch.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Stop Sketch</ID>
+      <Name>Stop Sketch</Name>
+      <Image>
+        <Source>[sketch:Stop Sketch.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Extrude</ID>
+      <Name>Extrude</Name>
+      <Image>
+        <Source>[model:Extrude.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Revolve</ID>
+      <Name>Revolve</Name>
+      <Image>
+        <Source>[model:Revolve.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sweep</ID>
+      <Name>Sweep</Name>
+      <Image>
+        <Source>[model:Sweep.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Loft</ID>
+      <Name>Loft</Name>
+      <Image>
+        <Source>[model:Loft.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Rib</ID>
+      <Name>Rib</Name>
+      <Image>
+        <Source>[model:Rib.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Web</ID>
+      <Name>Web</Name>
+      <Image>
+        <Source>[model:Web.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Hole</ID>
+      <Name>Hole</Name>
+      <Image>
+        <Source>[model:Hole.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Thread</ID>
+      <Name>Thread</Name>
+      <Image>
+        <Source>[model:Thread.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Box</ID>
+      <Name>Box</Name>
+      <Image>
+        <Source>[model:Box.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Cylinder</ID>
+      <Name>Cylinder</Name>
+      <Image>
+        <Source>[model:Cylinder.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sphere</ID>
+      <Name>Sphere</Name>
+      <Image>
+        <Source>[model:Sphere.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Torus</ID>
+      <Name>Torus</Name>
+      <Image>
+        <Source>[model:Torus.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Coil</ID>
+      <Name>Coil</Name>
+      <Image>
+        <Source>[model:Coil.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Pipe</ID>
+      <Name>Pipe</Name>
+      <Image>
+        <Source>[model:Pipe.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Rectangular Pattern</ID>
+      <Name>Rectangular Pattern</Name>
+      <Image>
+        <Source>[model:Rectangular Pattern.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Circular Pattern</ID>
+      <Name>Circular Pattern</Name>
+      <Image>
+        <Source>[model:Circular Pattern.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Pattern on Path</ID>
+      <Name>Pattern on Path</Name>
+      <Image>
+        <Source>[model:Pattern on Path.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Mirror</ID>
+      <Name>Mirror</Name>
+      <Image>
+        <Source>[model:Mirror.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Thicken</ID>
+      <Name>Thicken</Name>
+      <Image>
+        <Source>[model:Thicken.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Boundary Fill</ID>
+      <Name>Boundary Fill</Name>
+      <!-- <Image>
+        <Source>[model:Boundary Fill.jpg]</Source>
+      </Image> -->
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create Form</ID>
+      <Name>Create Form</Name>
+      <Image>
+        <Source>[model:Create Form.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create Mesh</ID>
+      <Name>Create Mesh</Name>
+      <Image>
+        <Source>[model:Create Mesh.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create Base Feature</ID>
+      <Name>Create Base Feature</Name>
+      <Image>
+        <Source>[model:Create Base Feature.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Finish Base Feature</ID>
+      <Name>Finish Base Feature</Name>
+      <Image>
+        <Source>[model:Finish Base Feature.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create PCB</ID>
+      <Name>Create PCB</Name>
+      <Image>
+        <Source>[pcb:Create PCB.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Press Pull</ID>
+      <Name>Press Pull</Name>
+      <Image>
+        <Source>[model:Press Pull.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Fillet</ID>
+      <Name>Fillet</Name>
+      <Image>
+        <Source>[model:Fillet.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Rule Fillet</ID>
+      <Name>Rule Fillet</Name>
+      <Image>
+        <Source>[model:Rule Fillet.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Chamfer</ID>
+      <Name>Chamfer</Name>
+      <Image>
+        <Source>[model:Chamfer.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Shell</ID>
+      <Name>Shell</Name>
+      <Image>
+        <Source>[model:Shell.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Draft</ID>
+      <Name>Draft</Name>
+      <Image>
+        <Source>[model:Draft.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Scale</ID>
+      <Name>Scale</Name>
+      <Image>
+        <Source>[model:Scale.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Combine</ID>
+      <Name>Combine</Name>
+      <Image>
+        <Source>[model:Combine.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Replace Face</ID>
+      <Name>Replace Face</Name>
+      <Image>
+        <Source>[model:Replace Face.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Split Face</ID>
+      <Name>Split Face</Name>
+      <Image>
+        <Source>[model:Split Face.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Split Body</ID>
+      <Name>Split Body</Name>
+      <Image>
+        <Source>[model:Split Body.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Silhouette Split</ID>
+      <Name>Silhouette Split</Name>
+      <Image>
+        <Source>[model:Silhouette Split.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Move</ID>
+      <Name>Move</Name>
+      <Image>
+        <Source>[modify:Move.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Align</ID>
+      <Name>Align</Name>
+      <Image>
+        <Source>[modify:Align.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Physical Material</ID>
+      <Name>Physical Material</Name>
+      <Image>
+        <Source>[modify:Physical Material.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Appearance</ID>
+      <Name>Appearance</Name>
+      <Image>
+        <Source>[modify:Appearance.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Manage Materials</ID>
+      <Name>Manage Materials</Name>
+      <Image>
+        <Source>[modify:Manage Materials.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Delete</ID>
+      <Name>Delete</Name>
+      <Image>
+        <Source>[modify:Delete.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Compute All</ID>
+      <Name>Compute All</Name>
+      <Image>
+        <Source>[modify:Compute All.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Change Parameters</ID>
+      <Name>Change Parameters</Name>
+      <Image>
+        <Source>[modify:Change Parameters.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>New Component</ID>
+      <Name>New Component</Name>
+      <Image>
+        <Source>[assemble:New Component.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Joint</ID>
+      <Name>Joint</Name>
+      <Image>
+        <Source>[assemble:Joint.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>As-built Joint</ID>
+      <Name>As-built Joint</Name>
+      <Image>
+        <Source>[assemble:As-built Joint.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Joint Origin</ID>
+      <Name>Joint Origin</Name>
+      <Image>
+        <Source>[assemble:Joint Origin.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Rigid Group</ID>
+      <Name>Rigid Group</Name>
+      <Image>
+        <Source>[assemble:Rigid Group.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Drive Joints</ID>
+      <Name>Drive Joints</Name>
+      <Image>
+        <Source>[assemble:Drive Joints.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Motion Link</ID>
+      <Name>Motion Link</Name>
+      <Image>
+        <Source>[assemble:Motion Link.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Enable Contact Sets</ID>
+      <Name>Enable Contact Sets</Name>
+      <Image>
+        <Source>[assemble:Enable Contact Sets.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Enable All Contact</ID>
+      <Name>Enable All Contact</Name>
+      <Image>
+        <Source>[assemble:Enable All Contact.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Motion Study</ID>
+      <Name>Motion Study</Name>
+      <Image>
+        <Source>[assemble:Motion Study.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Offset Plane</ID>
+      <Name>Offset Plane</Name>
+      <Image>
+        <Source>[construct:Offset Plane.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Plane at Angle</ID>
+      <Name>Plane at Angle</Name>
+      <Image>
+        <Source>[construct:Plane at Angle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Tangent Plane</ID>
+      <Name>Tangent Plane</Name>
+      <Image>
+        <Source>[construct:Tangent Plane.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Midplane</ID>
+      <Name>Midplane</Name>
+      <Image>
+        <Source>[construct:Midplane.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Plane Through Two Edges</ID>
+      <Name>Plane Through Two Edges</Name>
+      <Image>
+        <Source>[construct:Plane Through Two Edges.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Plane Through Three Points</ID>
+      <Name>Plane Through Three Points</Name>
+      <Image>
+        <Source>[construct:Plane Through Three Points.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Plane Tangent to Face at Point</ID>
+      <Name>Plane Tangent to Face at Point</Name>
+      <Image>
+        <Source>[construct:Plane Tangent to Face at Point.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Plane Along Path</ID>
+      <Name>Plane Along Path</Name>
+      <Image>
+        <Source>[construct:Plane Along Path.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Axis Through Cylinder/Cone/Torus</ID>
+      <Name>Axis Through Cylinder/Cone/Torus</Name>
+      <Image>
+        <Source>[construct:Axis Through Cylinder-Cone-Torus.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Axis Perpendicular at Point</ID>
+      <Name>Axis Perpendicular at Point</Name>
+      <Image>
+        <Source>[construct:Axis Perpendicular at Point.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Axis Through Two Planes</ID>
+      <Name>Axis Through Two Planes</Name>
+      <Image>
+        <Source>[construct:Axis Through Two Planes.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Axis Through Two Points</ID>
+      <Name>Axis Through Two Points</Name>
+      <Image>
+        <Source>[construct:Axis Through Two Points.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Axis Through Edge</ID>
+      <Name>Axis Through Edge</Name>
+      <Image>
+        <Source>[construct:Axis Through Edge.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Axis Perpendicular to Face at Point</ID>
+      <Name>Axis Perpendicular to Face at Point</Name>
+      <Image>
+        <Source>[construct:Axis Perpendicular to Face at Point.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Point at Vertex</ID>
+      <Name>Point at Vertex</Name>
+      <Image>
+        <Source>[construct:Point at Vertex.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Point Through Two Edges</ID>
+      <Name>Point Through Two Edges</Name>
+      <Image>
+        <Source>[construct:Point Through Two Edges.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Point Through Three Planes</ID>
+      <Name>Point Through Three Planes</Name>
+      <Image>
+        <Source>[construct:Point Through Three Planes.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Point at Center of Circle/Sphere/Torus</ID>
+      <Name>Point at Center of Circle/Sphere/Torus</Name>
+      <Image>
+        <Source>[construct:Point at Center of Circle-Sphere-Torus.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Point at Edge and Plane</ID>
+      <Name>Point at Edge and Plane</Name>
+      <Image>
+        <Source>[construct:Point at Edge and Plane.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Measure</ID>
+      <Name>Measure</Name>
+      <Image>
+        <Source>[inspect:Measure.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Interference</ID>
+      <Name>Interference</Name>
+      <Image>
+        <Source>[inspect:Interference.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Curvature Comb Analysis</ID>
+      <Name>Curvature Comb Analysis</Name>
+      <Image>
+        <Source>[inspect:Curvature Comb Analysis.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Zebra Analysis</ID>
+      <Name>Zebra Analysis</Name>
+      <Image>
+        <Source>[inspect:Zebra Analysis.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Draft Analysis</ID>
+      <Name>Draft Analysis</Name>
+      <Image>
+        <Source>[inspect:Draft Analysis.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Curvature Map Analysis</ID>
+      <Name>Curvature Map Analysis</Name>
+      <Image>
+        <Source>[inspect:Curvature Map Analysis.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Section Analysis</ID>
+      <Name>Section Analysis</Name>
+      <Image>
+        <Source>[inspect:Section Analysis.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center of Mass</ID>
+      <Name>Center of Mass</Name>
+      <Image>
+        <Source>[inspect:Center of Mass.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Component Color Cycling Toggle</ID>
+      <Name>Component Color Cycling Toggle</Name>
+      <Image>
+        <Source>[inspect:Component Color Cycling Toggle.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Decal</ID>
+      <Name>Decal</Name>
+      <Image>
+        <Source>[insert:Decal.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Attached Canvas</ID>
+      <Name>Attached Canvas</Name>
+      <Image>
+        <Source>[insert:Attached Canvas.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Background Canvas</ID>
+      <Name>Background Canvas</Name>
+      <Image>
+        <Source>[insert:Background Canvas.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Insert Mesh</ID>
+      <Name>Insert Mesh</Name>
+      <Image>
+        <Source>[insert:Insert Mesh.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Insert TSpline</ID>
+      <Name>Insert TSpline</Name>
+      <Image>
+        <Source>[insert:Insert TSpline.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Insert SVG</ID>
+      <Name>Insert SVG</Name>
+      <Image>
+        <Source>[insert:Insert SVG.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Insert DXF</ID>
+      <Name>Insert DXF</Name>
+      <Image>
+        <Source>[insert:Insert DXF.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Insert McMaster-Carr Component</ID>
+      <Name>Insert McMaster-Carr Component</Name>
+      <Image>
+        <Source>[insert:Insert McMaster-Carr Component.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Insert a Manufacturer Part</ID>
+      <Name>Insert a Manufacturer Part</Name>
+      <Image>
+        <Source>[insert:Insert a Manufacturer Part.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Window Selection</ID>
+      <Name>Window Selection</Name>
+      <Image>
+        <Source>[select:Window Selection.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Freeform Selection</ID>
+      <Name>Freeform Selection</Name>
+      <Image>
+        <Source>[select:Freeform Selection.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Paint Selection</ID>
+      <Name>Paint Selection</Name>
+      <Image>
+        <Source>[select:Paint Selection.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select By Name</ID>
+      <Name>Select By Name</Name>
+      <Image>
+        <Source>[select:Select By Name.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select By Boundary</ID>
+      <Name>Select By Boundary</Name>
+      <Image>
+        <Source>[select:Select By Boundary.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select By Size</ID>
+      <Name>Select By Size</Name>
+      <Image>
+        <Source>[select:Select By Size.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Invert Selection</ID>
+      <Name>Invert Selection</Name>
+      <Image>
+        <Source>[select:Invert Selection.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select Body Priority</ID>
+      <Name>Select Body Priority</Name>
+      <Image>
+        <Source>[select:Select Body Priority.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select Face Priority</ID>
+      <Name>Select Face Priority</Name>
+      <Image>
+        <Source>[select:Select Face Priority.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select Edge Priority</ID>
+      <Name>Select Edge Priority</Name>
+      <Image>
+        <Source>[select:Select Edge Priority.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Select Component Priority</ID>
+      <Name>Select Component Priority</Name>
+      <Image>
+        <Source>[select:Select Component Priority.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Capture Position</ID>
+      <Name>Capture Position</Name>
+      <Image>
+        <Source>[position:Capture Position.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Revert</ID>
+      <Name>Revert</Name>
+      <Image>
+        <Source>[position:Revert.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Flange</ID>
+      <Name>Flange</Name>
+      <Image>
+        <Source>[sheetmetal:Flange.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Unfold</ID>
+      <Name>Unfold</Name>
+      <Image>
+        <Source>[sheetmetal:Unfold.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Refold</ID>
+      <Name>Refold</Name>
+      <Image>
+        <Source>[sheetmetal:Refold.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Sheet Metal Rules</ID>
+      <Name>Sheet Metal Rules</Name>
+      <Image>
+        <Source>[sheetmetal:Sheet Metal Rules.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Create Flat Pattern</ID>
+      <Name>Create Flat Pattern</Name>
+      <Image>
+        <Source>[sheetmetal:Create Flat Pattern.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Exit Flat Pattern</ID>
+      <Name>Exit Flat Pattern</Name>
+      <Image>
+        <Source>[sheetmetal:Exit Flat Pattern.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Export to Generative Design</ID>
+      <Name>Export to Generative Design</Name>
+      <Image>
+        <Source>[F360:Export to Generative Design.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Simulate in CFD</ID>
+      <Name>Simulate in CFD</Name>
+      <Image>
+        <Source>[F360:Simulate in CFD.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Simulate in Mold Flow Advisor</ID>
+      <Name>Simulate in Mold Flow Advisor</Name>
+      <Image>
+        <Source>[F360:Simulate in Mold Flow Advisor.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Simulate in Mold Flow Insight</ID>
+      <Name>Simulate in Mold Flow Insight</Name>
+      <Image>
+        <Source>[F360:Simulate in Mold Flow Insight.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Find Features</ID>
+      <Name>Find Features</Name>
+      <Image>
+        <Source>[F360:Find Features.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <!-- <ButtonAction Type="Macro">
+      <ID>Move</ID>
+      <Name>Move</Name>
+      <Image>
+        <Source>[sheetmetal:Move.jpg]</Source>
+      </Image>
+    </ButtonAction> -->
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_afb7b542-22c8-4566-a5b8-4bb5ed8b635f</ID>
+      <Name>Sketch Draw</Name>
+      <MenuID>MenuRM_afb7b542-22c8-4566-a5b8-4bb5ed8b635f</MenuID>
+      <Image>
+        <Source>[sketch:Line.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_1c73a8be-98e2-459e-a43b-ce153f90a9e9</ID>
+      <Name>Sketch Modify</Name>
+      <MenuID>MenuRM_1c73a8be-98e2-459e-a43b-ce153f90a9e9</MenuID>
+      <Image>
+        <Source>[sketch:Sketch Fillet.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_fc15e039-77f7-49e0-9bf0-4b8865de15a2</ID>
+      <Name>Sketch Create</Name>
+      <MenuID>MenuRM_fc15e039-77f7-49e0-9bf0-4b8865de15a2</MenuID>
+      <Image>
+        <Source>[sketch:Create Sketch.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_5e82ce09-5fab-4dbd-82bd-b88d36c2965e</ID>
+      <Name>Create</Name>
+      <MenuID>MenuRM_5e82ce09-5fab-4dbd-82bd-b88d36c2965e</MenuID>
+      <Image>
+        <Source>[model:Extrude.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_3f29c598-2089-411e-bf52-fa11c3906e8b</ID>
+      <Name>Modify</Name>
+      <MenuID>MenuRM_3f29c598-2089-411e-bf52-fa11c3906e8b</MenuID>
+      <Image>
+        <Source>[model:Fillet.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_af548834-8743-4bf2-a862-baee62df0d72</ID>
+      <Name>Assemble</Name>
+      <MenuID>MenuRM_af548834-8743-4bf2-a862-baee62df0d72</MenuID>
+      <Image>
+        <Source>[assemble:New Component.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_92dcc208-bd0c-462f-8d8b-b0623a35a724</ID>
+      <Name>Select</Name>
+      <MenuID>MenuRM_92dcc208-bd0c-462f-8d8b-b0623a35a724</MenuID>
+      <Image>
+        <Source>[select:Window Selection.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_2db1efa3-ac3b-4dad-80aa-c1bebba4858b</ID>
+      <Name>Insert</Name>
+      <MenuID>MenuRM_2db1efa3-ac3b-4dad-80aa-c1bebba4858b</MenuID>
+      <Image>
+        <Source>[insert:Decal.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_8002c1ad-9f52-493f-bd4a-2481e2a9501d</ID>
+      <Name>Measure</Name>
+      <MenuID>MenuRM_8002c1ad-9f52-493f-bd4a-2481e2a9501d</MenuID>
+      <Image>
+        <Source>[inspect:Measure.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_0d94cb13-5d16-47c8-8b36-273395d10246</ID>
+      <Name>Construct</Name>
+      <MenuID>MenuRM_0d94cb13-5d16-47c8-8b36-273395d10246</MenuID>
+      <Image>
+        <Source>[construct:Offset Plane.jpg]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_400d0af5-47ec-4dbb-b377-8a6f1a838791</ID>
+      <Name>Sheet Metal</Name>
+      <MenuID>MenuRM_400d0af5-47ec-4dbb-b377-8a6f1a838791</MenuID>
+      <Image>
+        <Source>[sheetmetal:Flange.jpg]</Source>
+      </Image>
+    </ButtonAction>
+  </ButtonActions>
+</AppCfg>

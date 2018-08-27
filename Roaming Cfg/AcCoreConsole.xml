@@ -1,0 +1,1268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AppCfg Default="false" xmlns="" CfgFormatVersion="1.2" ThisFileVersion="1.10">
+  <AppInfo>
+    <Signature>
+      <Name>STR_FUSION360_DRAWING</Name>
+      <ExecutableName>AcCoreConsole.exe</ExecutableName>
+    </Signature>
+    <Options />
+  </AppInfo>
+  <CfgProperties>
+    <InheritsFrom>STR_DEFAULT_KMJ</InheritsFrom>
+    <!-- <InheritsFrom>STR_FUSION360_DRAWING</InheritsFrom> -->
+    <!-- <Access /> -->
+  </CfgProperties>
+  <AuthorInfo>
+    <DriverVersion>17.5.10.15247</DriverVersion>
+    <LastChange>
+      <Tool>3DxSmartUI.exe</Tool>
+      <Version>1.2.18213.15051</Version>
+      <Date>8/27/2018 2:49:31 AM UTC</Date>
+      <User>Brayden Aimar</User>
+    </LastChange>
+  </AuthorInfo>
+  <Settings />
+  <Devices>
+    <Device>
+      <Name>SpaceMouse Enterprise</Name>
+      <VendorID>256f</VendorID>
+      <ProductID>c633</ProductID>
+      <InheritsFrom>Standard 3D Mouse</InheritsFrom>
+      <ButtonBank Default="true">
+        <Name>STR_DEFAULT_BUTTONBANK</Name>
+        <ID>Default</ID>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_13</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_960ca508-de29-4870-a4ee-5405a5d15142</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_78</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Image</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_14</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_dbb41980-37ba-40f0-a6cb-478a000d5be8</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_15</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_8eb82c31-7108-47e2-abfb-b6b150cd52fa</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_16</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Balloon</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_18</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_97e6dbfb-a79b-4261-9fd9-a17644e1c92c</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_19</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_24f310e6-56c7-4215-83b5-f56fbca5e870</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_20</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Leader</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_77</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Redo</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_22</ActionID>
+          </Input>
+          <Output>
+            <ActionID>Macro_Undo</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_21</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_ab7eb58a-c91f-4f93-9aa6-ec73c6b964a2</ActionID>
+          </Output>
+        </Button>
+        <Button>
+          <Input>
+            <ActionID>HIDButton_17</ActionID>
+          </Input>
+          <Output>
+            <ActionID>RadialMenu_MenuRM_3b97ebe9-ae77-4cda-b113-a0f401c76f60</ActionID>
+          </Output>
+        </Button>
+      </ButtonBank>
+    </Device>
+  </Devices>
+  <ButtonActions xmlns:Drawing="./FUSION360/Drawing/" xmlns:Drawing_Views="./FUSION360/Drawing/Drawing_Views/" xmlns:Modify="./FUSION360/Drawing/Modify/" xmlns:Geometry="./FUSION360/Drawing/Geometry/" xmlns:Dimensions="./FUSION360/Drawing/Dimensions/" xmlns:Text="./FUSION360/Drawing/Text/" xmlns:Symbols="./FUSION360/Drawing/Symbols/" xmlns:Insert="./FUSION360/Drawing/Insert/" xmlns:Tables="./FUSION360/Drawing/Tables/" xmlns:Output="./FUSION360/Drawing/Output/">
+    <!-- App Handled Actions -->
+    <!-- Internal Handled Actions -->
+    <!-- Keyboard Functions -->
+    <!-- Macros -->
+    <ButtonAction Type="Macro">
+      <ID>Base View</ID>
+      <Name>Base View</Name>
+      <Image>
+        <Source>[Drawing_Views:Base View.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Projected View</ID>
+      <Name>Projected View</Name>
+      <Image>
+        <Source>[Drawing_Views:Projected View.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Section View</ID>
+      <Name>Section View</Name>
+      <Image>
+        <Source>[Drawing_Views:Section View.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Detail View</ID>
+      <Name>Detail View</Name>
+      <Image>
+        <Source>[Drawing_Views:Detail View.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Move</ID>
+      <Name>Move</Name>
+      <Image>
+        <Source>[Modify:Move.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Rotate</ID>
+      <Name>Rotate</Name>
+      <Image>
+        <Source>[Modify:Rotate.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Delete</ID>
+      <Name>Delete</Name>
+      <Image>
+        <Source>[Modify:Delete.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Centerline</ID>
+      <Name>Centerline</Name>
+      <Image>
+        <Source>[Geometry:Centerline.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Mark</ID>
+      <Name>Center Mark</Name>
+      <Image>
+        <Source>[Geometry:Center Mark.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Center Mark Pattern</ID>
+      <Name>Center Mark Pattern</Name>
+      <Image>
+        <Source>[Geometry:Center Mark Pattern.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Edge Extension</ID>
+      <Name>Edge Extension</Name>
+      <Image>
+        <Source>[Geometry:Edge Extension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Dimension</ID>
+      <Name>Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Ordinate Dimension</ID>
+      <Name>Ordinate Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Ordinate Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Linear Dimension</ID>
+      <Name>Linear Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Linear Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Aligned Dimension</ID>
+      <Name>Aligned Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Aligned Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Angular Dimension</ID>
+      <Name>Angular Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Angular Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Radius Dimension</ID>
+      <Name>Radius Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Radius Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Diameter Dimension</ID>
+      <Name>Diameter Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Diameter Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Baseline Dimension</ID>
+      <Name>Baseline Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Baseline Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Chain Dimension</ID>
+      <Name>Chain Dimension</Name>
+      <Image>
+        <Source>[Dimensions:Chain Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Dimension Break</ID>
+      <Name>Dimension Break</Name>
+      <Image>
+        <Source>[Dimensions:Dimension Break.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Text</ID>
+      <Name>Text</Name>
+      <Image>
+        <Source>[Text:Text.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Leader</ID>
+      <Name>Leader</Name>
+      <Image>
+        <Source>[Text:Leader.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Surface Texture</ID>
+      <Name>Surface Texture</Name>
+      <Image>
+        <Source>[Symbols:Surface Texture.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Feature Control Frame</ID>
+      <Name>Feature Control Frame</Name>
+      <Image>
+        <Source>[Symbols:Feature Control Frame.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Datum Identifier</ID>
+      <Name>Datum Identifier</Name>
+      <Image>
+        <Source>[Symbols:Datum Identifier.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Image</ID>
+      <Name>Image</Name>
+      <Image>
+        <Source>[Insert:Image.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Table</ID>
+      <Name>Table</Name>
+      <Image>
+        <Source>[Tables:Table.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Balloon</ID>
+      <Name>Balloon</Name>
+      <Image>
+        <Source>[Tables:Balloon.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Bend Identifier</ID>
+      <Name>Bend Identifier</Name>
+      <Image>
+        <Source>[Tables:Bend Identifier.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Renumber</ID>
+      <Name>Renumber</Name>
+      <Image>
+        <Source>[Tables:Renumber.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Align Balloons</ID>
+      <Name>Align Balloons</Name>
+      <Image>
+        <Source>[Tables:Align Balloons.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Output PDF</ID>
+      <Name>Output PDF</Name>
+      <Image>
+        <Source>[Output:Output PDF.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Output DWG</ID>
+      <Name>Output DWG</Name>
+      <Image>
+        <Source>[Output:Output DWG.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Output CSV</ID>
+      <Name>Output CSV</Name>
+      <Image>
+        <Source>[Output:Output CSV.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Macro">
+      <ID>Print</ID>
+      <Name>Print</Name>
+      <Image>
+        <Source>[Output:Print.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_97e6dbfb-a79b-4261-9fd9-a17644e1c92c</ID>
+      <Name>RM Output</Name>
+      <MenuID>MenuRM_97e6dbfb-a79b-4261-9fd9-a17644e1c92c</MenuID>
+      <Image>
+        <Source>[Output:Output PDF.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_960ca508-de29-4870-a4ee-5405a5d15142</ID>
+      <Name>RM Views</Name>
+      <MenuID>MenuRM_960ca508-de29-4870-a4ee-5405a5d15142</MenuID>
+      <Image>
+        <Source>[Drawing_Views:Base View.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_8eb82c31-7108-47e2-abfb-b6b150cd52fa</ID>
+      <Name>RM Geometry</Name>
+      <MenuID>MenuRM_8eb82c31-7108-47e2-abfb-b6b150cd52fa</MenuID>
+      <Image>
+        <Source>[Geometry:Centerline.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_24f310e6-56c7-4215-83b5-f56fbca5e870</ID>
+      <Name>RM Dimensions</Name>
+      <MenuID>MenuRM_24f310e6-56c7-4215-83b5-f56fbca5e870</MenuID>
+      <Image>
+        <Source>[Dimensions:Dimension.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_ab7eb58a-c91f-4f93-9aa6-ec73c6b964a2</ID>
+      <Name>RM Annotation</Name>
+      <MenuID>MenuRM_ab7eb58a-c91f-4f93-9aa6-ec73c6b964a2</MenuID>
+      <Image>
+        <Source>[Text:Text.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_3b97ebe9-ae77-4cda-b113-a0f401c76f60</ID>
+      <Name>RM Tables</Name>
+      <MenuID>MenuRM_3b97ebe9-ae77-4cda-b113-a0f401c76f60</MenuID>
+      <Image>
+        <Source>[Tables:Table.png]</Source>
+      </Image>
+    </ButtonAction>
+    <ButtonAction Type="Menu">
+      <ID>RadialMenu_MenuRM_dbb41980-37ba-40f0-a6cb-478a000d5be8</ID>
+      <Name>RM Modify</Name>
+      <MenuID>MenuRM_dbb41980-37ba-40f0-a6cb-478a000d5be8</MenuID>
+      <Image>
+        <Source>[Modify:Move.png]</Source>
+      </Image>
+    </ButtonAction>
+  </ButtonActions>
+  <Menus>
+    <Executable>3DxPieMenus.exe</Executable>
+    <Menu Type="Radial">
+      <Name>RM Output</Name>
+      <ID>MenuRM_97e6dbfb-a79b-4261-9fd9-a17644e1c92c</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Output PDF</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Output DWG</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Output CSV</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Print</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RM Views</Name>
+      <ID>MenuRM_960ca508-de29-4870-a4ee-5405a5d15142</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Base View</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Projected View</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Section View</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Detail View</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RM Geometry</Name>
+      <ID>MenuRM_8eb82c31-7108-47e2-abfb-b6b150cd52fa</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Centerline</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Center Mark</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Center Mark Pattern</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Edge Extension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RM Dimensions</Name>
+      <ID>MenuRM_24f310e6-56c7-4215-83b5-f56fbca5e870</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>EightButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Ordinate Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Angular Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Radius Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Diameter Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Baseline Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Chain Dimension</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Dimension Break</ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RM Annotation</Name>
+      <ID>MenuRM_ab7eb58a-c91f-4f93-9aa6-ec73c6b964a2</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Text</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Surface Texture</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Feature Control Frame</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Datum Identifier</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RM Tables</Name>
+      <ID>MenuRM_3b97ebe9-ae77-4cda-b113-a0f401c76f60</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Table</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Renumber</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Align Balloons</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Bend Identifier</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+    <Menu Type="Radial">
+      <Name>RM Modify</Name>
+      <ID>MenuRM_dbb41980-37ba-40f0-a6cb-478a000d5be8</ID>
+      <GesturesEnabled>true</GesturesEnabled>
+      <Style>FourButton</Style>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_1</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Move</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_2</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Rotate</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_3</ActionID>
+        </Input>
+        <Output>
+          <ActionID>Delete</ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_4</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_5</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_6</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_7</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+      <Button>
+        <Input>
+          <ActionID>MenuButton_8</ActionID>
+        </Input>
+        <Output>
+          <ActionID>
+          </ActionID>
+        </Output>
+      </Button>
+    </Menu>
+  </Menus>
+  <MacroTable>
+    <MacroEntry>
+      <ID>Print</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Base View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Projected View</ID>
+      <KeyStroke>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Section View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Detail View</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Move</ID>
+      <KeyStroke>
+        <Key>10</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Rotate</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Delete</ID>
+      <KeyStroke>
+        <Key>4C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Centerline</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Center Mark</ID>
+      <KeyStroke>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Center Mark Pattern</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>13</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Edge Extension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Alt</Modifier>
+        </Modifiers>
+        <Key>8</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Dimension</ID>
+      <KeyStroke>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Ordinate Dimension</ID>
+      <KeyStroke>
+        <Key>12</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Linear Dimension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Aligned Dimension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Angular Dimension</ID>
+      <KeyStroke>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Radius Dimension</ID>
+      <KeyStroke>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Diameter Dimension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Baseline Dimension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Chain Dimension</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Dimension Break</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Text</ID>
+      <KeyStroke>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Leader</ID>
+      <KeyStroke>
+        <Key>F</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Surface Texture</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>16</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Feature Control Frame</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>9</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Datum Identifier</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Image</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>C</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Table</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>17</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Balloon</ID>
+      <KeyStroke>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Bend Identifier</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>5</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Renumber</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>15</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Align Balloons</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+        </Modifiers>
+        <Key>4</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Output PDF</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>12</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Output DWG</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>7</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Output CSV</ID>
+      <KeyStroke>
+        <Modifiers>
+          <Modifier>Control</Modifier>
+          <Modifier>Shift</Modifier>
+        </Modifiers>
+        <Key>6</Key>
+      </KeyStroke>
+    </MacroEntry>
+    <MacroEntry>
+      <ID>Backspace</ID>
+      <KeyStroke>
+        <Key>2A</Key>
+      </KeyStroke>
+    </MacroEntry>
+  </MacroTable>
+</AppCfg>

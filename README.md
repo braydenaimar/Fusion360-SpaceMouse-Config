@@ -16,7 +16,7 @@ User customized settings are stored in 'C:\Users\Brayden Aimar\AppData\Roaming\3
 The .xml files here are intended to replace the existing .xml files created by 3DxWare to store user customized settings.
 The 'AcCoreConsole.xml' file is for the Fusion360 Drawing workspace.
 
-Fusion 360 tool icon set: github.com/braydenaimar/Fusion360-Tool-Icons
+[Fusion 360 Icon Set](https://www.github.com/braydenaimar/Fusion360-Tool-Icons)
 
 Macro Key Codes
 ----
